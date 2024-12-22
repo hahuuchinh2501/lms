@@ -8,8 +8,8 @@ import ToasterProvider from "@/components/providers/ToasterProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Tech Vision Academy",
-  description: "Empowering minds, shaping future",
+  title: "LMS LEARNING",
+  description: "Development , learn , improve",
 };
 
 export default function RootLayout({

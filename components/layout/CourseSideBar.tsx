@@ -53,7 +53,7 @@ const CourseSideBar = async ({ course, studentId }: CourseSideBarProps) => {
       )}
       <Link
         href={`/courses/${course.id}/overview`}
-        className={`p-3 rounded-lg hover:bg-[#FFF8EB] mt-4`}
+        className={`p-3 rounded-lg hover:bg-[#E21E1C] mt-4`}
       >
         Overview
       </Link>
@@ -61,7 +61,7 @@ const CourseSideBar = async ({ course, studentId }: CourseSideBarProps) => {
         <Link
           key={section.id}
           href={`/courses/${course.id}/sections/${section.id}`}
-          className="p-3 rounded-lg hover:bg-[#FFF8EB] mt-4"
+          className="p-3 rounded-lg hover:bg-[#E21E1C] mt-4"
         >
           {section.title}
         </Link>

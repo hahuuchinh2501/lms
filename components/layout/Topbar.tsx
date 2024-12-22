@@ -47,7 +47,7 @@ const Topbar = () => {
   return (
     <div className="flex justify-between items-center p-4">
       <Link href="/">
-        <Image src="/logo.png" height={100} width={200} alt="logo" />
+        <Image src="/lms.png" height={50} width={150} alt="logo" />
       </Link>
 
       <div className="max-md:hidden w-[400px] rounded-full flex">
@@ -58,7 +58,7 @@ const Topbar = () => {
           onChange={(e) => setSearchInput(e.target.value)}
         />
         <button
-          className="bg-[#FDAB04] rounded-r-full border-none outline-none cursor-pointer px-4 py-3 hover:bg-[#FDAB04]/80"
+          className="bg-[#E21E1C] rounded-r-full border-none outline-none cursor-pointer px-4 py-3 hover:bg-[#E21E1C]/80"
           disabled={searchInput.trim() === ""}
           onClick={handleSearch}
         >
@@ -72,7 +72,7 @@ const Topbar = () => {
             <Link
               href={route.path}
               key={route.path}
-              className="text-sm font-medium hover:text-[#FDAB04]"
+              className="text-sm font-medium hover:text-[#E21E1C]"
             >
               {route.label}
             </Link>
@@ -90,7 +90,7 @@ const Topbar = () => {
                   <Link
                     href={route.path}
                     key={route.path}
-                    className="text-sm font-medium hover:text-[#FDAB04]"
+                    className="text-sm font-medium hover:text-[#E21E1C]"
                   >
                     {route.label}
                   </Link>
@@ -103,7 +103,7 @@ const Topbar = () => {
                     <Link
                       href={route.path}
                       key={route.path}
-                      className="text-sm font-medium hover:text-[#FDAB04]"
+                      className="text-sm font-medium hover:text-[#E21E1C]"
                     >
                       {route.label}
                     </Link>
